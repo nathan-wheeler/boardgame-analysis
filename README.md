@@ -8,6 +8,6 @@ Data was scrapped from Board Game Geek’s API in 2022 and contains 19mil rating
 # Notable Analyses
 
 After preprocessing, cleaning the data and examining descriptive statistics of interest, I preformed the following analysis:
-1.	XGBoost regression with extracted SHAP scores to identify the feature importance in predicting of game popularity.  
+1.	XGBoost regression with extracted SHAP scores to identify the feature importance in predicting game popularity.  
 2.	Non-negative matrix factorization (NMF) to identify the most and least popular kinds of games.
 3.	Cosine Similarity to recommend the next most similar games to any one of interest. 
